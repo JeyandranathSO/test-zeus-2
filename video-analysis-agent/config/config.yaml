@@ -1,0 +1,11 @@
+video:
+  diff_threshold: 30
+
+ocr:
+  confidence_threshold: 60
+  similarity_threshold: 0.85
+  tesseract_path: null  # Set to full path if not in PATH, e.g., "C:/Program Files/Tesseract-OCR/tesseract.exe"
+
+llm:
+  model: gemini-2.5-pro
+  temperature: 0.2
